@@ -1,9 +1,11 @@
 import './App.css';
+import TodoForm from './components/TodoForm';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="todo_app">
+    <div className="todo-app">
       <h1>Business Consult Todo App</h1>
+      <TodoForm />
     </div>
   );
 }
